@@ -5,7 +5,7 @@ class Base extends CI_Controller {
 
 	public function Index(){
 		// Carregamos a library PHPlot
-		$this->load->library('phplot');
+		$this->load->library('PHPlot');
 
 		//Definindo os dados do gráfico
 		$dados = array(
